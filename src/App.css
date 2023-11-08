@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: #D9F5FF;
+
+  
+ 
+}
+.App {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #000;
+  box-shadow: rgba(25, 99, 237, 0.68) 0px 0px 1rem 2px;
+  border-radius: 10px;
+  margin-top: 3%;
+  padding-bottom: 5%;  
+}
+
+.header{
+  padding: 2% 0;
+  font-size: 19px;
+  color: #fff;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,99,1) 26%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+  border: 8px solid #000;
+  border-radius: 10px;
+
+}
+.header h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.form-add-money input[type="number"]{
+    font-size: inherit;
+    padding: 7px 17px;
+    background-color: #000;
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+}
+.form-add-money input[type="submit"] {
+  display: block;
+  margin: 21px auto 0px;
+  font-size: inherit;
+  font-weight: 500;
+  padding: 8px 7px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.7s;
+  border: 2px solid 
+
+
+}
+
+.form-add-money input[type="submit"]:hover{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,99,1) 26%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  color: #fff;
+  width: 230px;
+  border: 1px solid #fff;
+
+
+}
+
+.form-add-money p {
+  color: #fff;
+  font-weight: 500;
+
+}
+
+p.error {
+  color: #fff;
+  background-color: #d20808;
+  display: inline-block;
+  padding: 1px 18px 4px;
+  border-radius: 7px;
+  font-weight: 400;
+  display: block;
+}
+
+.main-form {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 6%;
+}
+
+.balance {
+  margin-top: 20px;
+  text-align: left;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid rgba(25, 99, 237, 0.68);
+  
+  padding: 12px 15px;
+  display: grid;
+  place-content: center;
+}
+
+.add-subscription form p {
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.add-subscription h3 {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.add-subscription form select {
+  font-size: inherit;
+  padding: 7px 7px;
+  border: 0px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid rgba(25, 99, 237, 0.68);
+}
+
+
+
+
+
+
+
+.add-subscription input[type="number"] {
+  font-size: inherit;
+  padding: 8px 9px;
+  width: 177px;
+  outline: none;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid rgba(25, 99, 237, 0.68);
+}
+.add-subscription input[type="submit"] {
+  display: block;
+  margin: 21px auto 0px;
+  font-size: inherit;
+  padding: 8px 7px;
+  width: 140px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  transition-duration: .7s;
+  font-weight: 600;
+}
+.add-subscription input[type="submit"]:hover {
+  width: 196px;
+  border: 1px solid #fff;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,99,1) 26%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  color: #fff ;
+}
+/* single item */
+.single-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  background-color: #fff;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  height: 110px;
+  margin: 2% 4% 2%;
+}
+.single-item a{
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px 11px 8px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,99,1) 26%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  color: #fff ;
+  transition: .7s;
+}
+.single-item a.delete:hover {
+  background: #ff020282;
+  color: #000;
+}
+.single-item a.edit:hover {
+  background: #06f03cc3;
+  color: #000;
+}
+.single-item img{
+  width: 155px;
+  height: auto;
+}
+
+p.author {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  gap: 7px;
+  color: #000;
+}
+p.author a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+}
