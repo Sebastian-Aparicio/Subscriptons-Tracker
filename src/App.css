@@ -209,3 +209,72 @@ p.author a {
   font-weight: 700;
   color: #000;
 }
+
+
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    width: 95%;
+    margin-top: 5%;
+    padding: 10px;
+  }
+
+  .header {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .main-form {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .form-add-money input[type="number"],
+  .form-add-money input[type="submit"],
+  .add-subscription form select,
+  .add-subscription input[type="number"],
+  .add-subscription input[type="submit"] {
+    width: 100% !important;
+    max-width: 300px;
+  }
+
+  .single-item {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .single-item img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  .single-item a {
+    margin-top: 5px;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h2 {
+    font-size: 18px;
+  }
+
+  .App {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .single-item {
+    margin: 10px;
+  }
+
+  p.author {
+    font-size: 14px;
+  }
+}
